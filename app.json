@@ -23,7 +23,8 @@
     },
     "plugins": [
       "expo-router",
-      "expo-build-properties",
+      [
+        "expo-build-properties",
         {
           "android": {
             "compileSdkVersion": 34,
@@ -32,6 +33,7 @@
             "kotlinVersion": "1.8.10"
           }
         }
+      ]
     ],
     "experiments": {
       "typedRoutes": true

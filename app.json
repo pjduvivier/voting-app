@@ -12,7 +12,7 @@
     "android": {
       "package": "com.bmodelou.votingapp",
       "versionCode": 1
-    },       
+    },
     "ios": {
       "supportsTablet": true
     },
@@ -26,6 +26,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c5c6907b-6328-48bc-8d25-d319cb01e2f2"
+      }
     }
   }
 }

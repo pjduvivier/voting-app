@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Voting App",
+    "slug": "voting-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.thirdbrainsaorg.votingapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.thirdbrainsaorg.votingapp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "af846201-12e8-4c49-a3b0-31e4321c6bbb"
+      }
+    },
+    "owner": "thirdbrainsa-org",
+    "updates": {
+      "url": "https://u.expo.dev/af846201-12e8-4c49-a3b0-31e4321c6bbb"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }

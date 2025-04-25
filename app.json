@@ -10,7 +10,7 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
      "android": {
-      "package": "com.bmodelou.voting-app",
+      "package": "com.bmodelou.votingapp",
       "versionCode": 1  // also recommended for Play Store versioning
     }
     "ios": {

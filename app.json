@@ -9,6 +9,10 @@
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+     "android": {
+      "package": "com.bmodelou.voting-app",
+      "versionCode": 1  // also recommended for Play Store versioning
+    }
     "ios": {
       "supportsTablet": true
     },

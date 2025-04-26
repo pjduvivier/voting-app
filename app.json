@@ -14,7 +14,11 @@
       "versionCode": 1
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bmodelou.votingapp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "web": {
       "bundler": "metro",
@@ -27,11 +31,11 @@
         "expo-build-properties",
         {
           "android": {
-	     "minSdkVersion": 21, 
+            "minSdkVersion": 21,
             "compileSdkVersion": 34,
             "targetSdkVersion": 34,
             "buildToolsVersion": "34.0.0",
-            "kotlinVersion": "1.8.10"
+            "kotlinVersion": "1.9.25"
           }
         }
       ]
@@ -47,7 +51,7 @@
         "projectId": "c5c6907b-6328-48bc-8d25-d319cb01e2f2"
       }
     },
-   "runtimeVersion": "1.0.0",
+    "runtimeVersion": "1.0.0",
     "updates": {
       "url": "https://u.expo.dev/c5c6907b-6328-48bc-8d25-d319cb01e2f2"
     }

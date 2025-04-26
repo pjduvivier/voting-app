@@ -35,7 +35,7 @@ apply from: new File(["node", "--print", "require.resolve('expo/package.json')"]
 useExpoModules()
 
 include ':app'
-// … your existing includes …
+// ï¿½ your existing includes ï¿½
 
 // include the expo-modules-core project
 include ':expo-modules-core'
